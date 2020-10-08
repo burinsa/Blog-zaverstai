@@ -9,7 +9,7 @@
     let forms = document.querySelector('.forms');
     let commentField = document.querySelector('.comment-field');
 
-    let photoUsers = ['/img/ava-petrov.png', '/img/ava-ksenya.png', '/img/ava-ivanov.png'];
+    let photoUsers = ['img/ava-petrov.png', 'img/ava-ksenya.png', 'img/ava-ivanov.png'];
     let commentsList = document.querySelector('.comments__list');
     let commentTemplate = document.querySelector('template').content.querySelector('li');
     let commentInputName = document.querySelector('.form-name');
