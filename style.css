@@ -42,14 +42,14 @@ body {
   margin: 0 auto;
   margin-bottom: 83px;
   padding-bottom: 523px;
-  background-image: url(/img/header.jpg);
+  background-image: url(img/header.jpg);
   background-position: 0 0;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .inner-page .header {
-  background-image: url(/img/header2.jpg);
+  background-image: url(img/header2.jpg);
   margin-bottom: 85px;
 }
 
@@ -539,7 +539,7 @@ body {
   padding-right: 79px;
   height: 552px;
   flex-basis: 590px;
-  background-image: url(/img/photo.png);
+  background-image: url(img/photo.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -547,7 +547,7 @@ body {
 }
 
 .cheesecake {    
-  background-image: url(/img/cheesecake.png);
+  background-image: url(img/cheesecake.png);
 }
 
 .photos h3,
@@ -749,17 +749,17 @@ cite {
 }
 
 .academy {
-  background-image: url(/img/academy.jpg);
+  background-image: url(img/academy.jpg);
   
 }
 
 .lnk {
-  background-image: url(/img/LNK.jpg);
+  background-image: url(img/LNK.jpg);
   color: #ffffff;
 }
 
 .t-l {
-  background-image: url(/img/TL.jpg);
+  background-image: url(img/TL.jpg);
 }
 
 .portfolio {
@@ -773,7 +773,7 @@ cite {
   padding-right: 80px;
   padding-top: 53px;
   padding-bottom: 62px;
-  background-image: url(/img/write-me.jpg);
+  background-image: url(img/write-me.jpg);
   border-radius: 10px;
 }
 
