@@ -38,7 +38,7 @@ body {
 .header {
   padding: 0;
   margin: 0;
-  max-width: 1440px;
+  width: 100%;
   margin: 0 auto;
   margin-bottom: 83px;
   padding-bottom: 523px;
@@ -129,7 +129,7 @@ body {
   margin: 0;
   padding: 0;
   margin-left: 120px;
-  width: 998px;
+  max-width: 998px;
 }
 
 .container .title {
@@ -243,7 +243,7 @@ body {
 .content figure img {
   margin: 0;
   padding: 0;
-  margin-bottom: 5px;
+  width: 100%;
 }
 
 .content figaption {
@@ -281,7 +281,8 @@ body {
 .post-footer {
   margin-bottom: 30px;
   display: flex;
-  justify-content: space-between;  
+  justify-content: space-between;
+  flex-wrap: wrap;  
 }
 
 .like {
@@ -322,6 +323,7 @@ body {
   padding: 0;
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .social-button__item {
@@ -330,6 +332,10 @@ body {
   margin-left: 32px;
   display: flex;
   align-items: center;
+}
+
+.social-button__item:first-child {
+  margin-left: 0;
 }
 
 /* .social-button__item a:hover path {
@@ -400,7 +406,7 @@ body {
 }
 
 .comments {
-  width: 793px;
+  max-width: 793px;
   margin-left: 120px;
   margin-bottom: 81px;
 }
@@ -456,6 +462,7 @@ body {
 
 .comment-form {
   display: flex;
+  flex-wrap: wrap;
   padding-left: 85px;
   font-family: "Open Sans", sans-serif;
   font-style: normal;
@@ -480,7 +487,7 @@ body {
 .wrap {
   display: flex;
   flex-direction: column;
-  
+  margin-right: 81px;
 }
 
 .form-group-comment {
@@ -516,7 +523,6 @@ body {
   padding: 0;
   padding-top: 18px;
   padding-left: 20px;
-  margin-left: 81px;
   flex-grow: 2;
   height: 208px;
   border-radius: 10px;
@@ -629,6 +635,10 @@ body {
   margin-bottom: 86px;
 }
 
+.about-me img {
+  max-width: 100%;
+}
+
 .about-me .title {
   margin-bottom: 49px;
   text-align: center;
@@ -636,7 +646,7 @@ body {
 
 .about-me .wrapper {
   display: flex;
-  
+  flex-wrap: wrap;
 }
 
 .wrap-about {
@@ -644,7 +654,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   max-width: 590px;
-  height: 693px;
+  min-height: 693px;
   margin-left: 20px;
 }
 
@@ -699,6 +709,7 @@ cite {
   margin-bottom: 104px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   list-style: none;
 }
 
@@ -774,6 +785,8 @@ cite {
   padding-top: 53px;
   padding-bottom: 62px;
   background-image: url(img/write-me.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 10px;
 }
 
@@ -783,9 +796,20 @@ cite {
   flex-direction: column;
 }
 
+.form-group:first-child {
+  flex-grow: 2;
+  margin-right: 20px;
+}
+
+.form-group:nth-child(2) {
+  flex-grow: 2;
+  margin-right: 0;
+}
+
 .container-input {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  flex-wrap: wrap;
   margin-bottom: 20px;
 }
 
@@ -801,7 +825,7 @@ cite {
 }
 
 .form-group input {
-  width: 407px;
+  max-width: 407px;
   padding-left: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -860,6 +884,7 @@ cite {
   list-style: none;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .footer__item {
